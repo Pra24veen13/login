@@ -10,8 +10,8 @@ import { RestrictedPageComponent } from './restricted-page/restricted-page.compo
 export function MSALInstanceFactory(): IPublicClientApplication {
   return new PublicClientApplication({
     auth: {
-      clientId: 'key',
-      redirectUri: 'http://localhost:4200'
+      clientId: '104382bc-add2-40fc-9273-4902df81b17f',
+      redirectUri: 'http://localhost:5000'
     }
   });
 }
